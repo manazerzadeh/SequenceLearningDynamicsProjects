@@ -5,13 +5,6 @@ A collection of analyses investigating how motor learning unfolds during sequenc
 ## 📚 Project Overview
 
 This repository contains Jupyter notebooks and supporting utilities for analyzing trial-by-trial force pattern dynamics in motor sequence learning. Each study employs different experimental manipulations to understand the mechanisms underlying skill acquisition.
-
-### Key Analyses
-- **Force pattern distance calculations**: Euclidean distances between force vectors as a measure of motor pattern consistency
-- **Execution time dynamics**: Speed improvements as a proxy for motor learning
-- **Trial-by-trial learning effects**: How force patterns evolve within and across blocks
-- **Transfer and generalization**: Understanding how learned patterns transfer under different conditions
-
 ---
 
 ## 📁 Repository Structure
@@ -42,31 +35,31 @@ LearningDynamicsProjects/
 
 Studies how force patterns change across different sequences when subjects practice multiple repetitions in quick succession (within-bout repetition).
 
-**Key Findings**:
-- Analysis of within-bout vs between-bout force pattern changes
-- Force pattern stability increases with practice
-- Different sequences show distinct learning trajectories
-
 **Data**: N=38 subjects, 2 days, 8 sequences, multiple repetitions per block
 
 ---
 
-### 2. Wiestler Single-Sequence Transfer Experiment
+### 2. Single-Sequence Learning Experiments
 **File**: `SingleSequenceForceDynamics.ipynb`
 
-Investigates long-term learning dynamics of a single sequence across three days, with a critical manipulation: speed clamping during blocks 5-12 on Day 1.
+This notebook contains two related experiments.
 
-**Key Findings**:
-- Speed-dependent vs speed-independent learning
-- Within-subject force pattern changes during clamping
-- Template-based learning: regression analysis reveals composition of learning from clamped experience and post-clamp changes
+### 2a. Wiestler Transfer Experiment
+
+Investigates transfer learning for a single sequence across three days.
+
+**Data**: N=36 subjects, 3 days of training, Day 3 post-test blocks 67-70
+
+### 2b. Speed Clamping Experiment
+
+Studies a common sequence trained across groups with a speed-clamp manipulation.
 
 **Experimental Conditions**:
-- Unclamped: normal practice
-- Clamped: execution speed held constant, allowing isolated analysis of force pattern changes
-- Verbal: explicit instruction group
+- Unconstrained: normal training
+- Speed Clamped: execution speed held constant during induction
+- Explicit + general: random-sequence practice plus explicit recall of the original sequence
 
-**Data**: N=36 subjects, 3 days training, 2 days post-test blocks
+**Data**: Two days of training on one sequence, with pre-test, induction, post-test, and post-test clamp phases
 
 ---
 
@@ -74,11 +67,6 @@ Investigates long-term learning dynamics of a single sequence across three days,
 **File**: `RewardManipulation.ipynb`
 
 Examines how external reward (points) based on execution time percentiles affects trial-by-trial force pattern dynamics.
-
-**Key Findings**:
-- Reward zones create distinct learning environments
-- Force pattern consistency varies by reward condition
-- Trial-by-trial dynamics reveal moment-to-moment motor adjustments
 
 **Experimental Design**:
 - Participants earn points based on execution time percentile
