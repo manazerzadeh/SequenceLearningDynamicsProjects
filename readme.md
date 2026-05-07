@@ -19,7 +19,7 @@ LearningDynamicsProjects/
 ├── MultiSequenceForceDynamics.ipynb    # Ariani repetition experiment
 ├── MultiSequenceForceDynamics.md       # Study description
 │
-├── SingleSequenceForceDynamics.ipynb   # Wiestler transfer experiment
+├── SingleSequenceForceDynamics.ipynb   # Single Sequence Learning experiments
 ├── SingleSequenceForceDynamics.md      # Study description
 │
 ├── RewardManipulation.ipynb            # Reward manipulation experiment
