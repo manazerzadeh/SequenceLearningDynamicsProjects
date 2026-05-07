@@ -48,7 +48,7 @@ This notebook contains two related experiments.
 
 Investigates transfer learning for a single sequence across three days.
 
-**Data**: N=36 subjects, 3 days of training, Day 3 post-test blocks 67-70
+**Data**: N=36 subjects, 3 days of training
 
 ### 2b. Speed Clamping Experiment
 
