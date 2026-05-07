@@ -4,7 +4,7 @@ A collection of analyses investigating how motor learning unfolds during sequenc
 
 ## 📚 Project Overview
 
-This repository contains Jupyter notebooks and supporting utilities for analyzing trial-by-trial force pattern dynamics in motor sequence learning. Each study employs different experimental manipulations to understand the mechanisms underlying skill acquisition.
+This repository contains Jupyter notebooks and supporting utilities for analyzing trial-by-trial and long-term force pattern dynamics in motor sequence learning. Each study employs different experimental manipulations to understand the mechanisms underlying skill acquisition.
 ---
 
 ## 📁 Repository Structure
